@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	color: black !important;
+}
+
+#blanquito
+{
+	background-color: white !important;
+}
+
+
+/*Clase para dispositivos grandes*/
+@media (min-width: 991px) {	
+	.redes-sociales {
+		text-align: right;
+		display: inline-table;
+	}
+	
+	.logo-img {
+		text-align: left;
+	}
+
+	.social-img:hover
+	{
+		filter: opacity(100%);
+	}
+}
+
+/*Clase para dispositivos medianos*/
+@media (max-width: 991px) {
+	.busqueda {
+		display: none !important;
+	}
+	
+	.contenido {
+		margin: 5px 10px;
+	}
+	
+	.logo-img {
+		margin: 0px 10px;
+		text-align: left;
+	}
+	
+	.redes-sociales {
+		display: inline-table;
+		text-align: center !important;
+
+	}
+
+	.img-thumbnail
+	{
+		width: 100%;
+	}
+
+	.social-img:hover
+	{
+		filter: opacity(100%);
+	}
+
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+
+/* Clase para darle estilos al logo */
+.logo-img img {
+	height: 100px;
+}
+
+/* Clase para darle estilos a los Iconos Sociales*/
+.social-img {
+	border-radius: 0px;
+	height: 50px;
+	filter: opacity(80%);
+}
+
+/*Clase para darle estilos a el contenido*/
+.img-formulario {
+	width: 30px;
+	border-radius: 5px;
+}
+
+#barradenavegacion:hover
+{
+	background-color: lightgrey;
+}
+
+#contenedorbnv, #blanquito
+{
+	border-radius: 0px 0px 5px 5px;
+}
+
+.contenidomargenradio
+{
+	border-radius: 10px 10px 0px 0px;
+}
+
+#margenescontenido
+{
+	margin-top: 2%;
+}

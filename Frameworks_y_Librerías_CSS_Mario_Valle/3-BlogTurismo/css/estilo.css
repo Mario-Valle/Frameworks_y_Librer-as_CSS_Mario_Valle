@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cuerpoimg
+{
+	width: 100%;
+}
+
+.centrar-texto
+{
+	text-align: justify;
+}
+
+#enviar {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.slogan
+{
+	text-align: left;
+	font-style: italic;
+	font-family: arial narrow;
+	font-weight: bold;
+}
+
+@media (min-width: 991px) 
+{
+	.logo 
+	{
+		height: 140px; 
+		border-radius: 10%;"
+	}
+	.slogan
+	{
+		text-align: left;
+		margin-top: 30px;
+	}
+
+	.cerronegroimg
+	{
+		width: 30%;
+		display:inline-block; 
+		float: left; 
+		margin: 10px 10px 0px 0px;"
+	}
+
+	.catedralEdf2
+	{
+		width: 100%;
+	}
+}
+
+@media (max-width: 991px) 
+{
+	.logo 
+	{
+		height: 100px; 
+		border-radius: 10%;"
+	}
+	.slogan
+	{
+		text-align: center;
+		font-size:100em;
+	}
+
+	.Contenedorlogo
+	{
+		width: 400px;
+	}
+	.cerronegroimg
+	{
+		width: 100%;
+		margin: 0px;"
+	}
+
+	.catedralEdf2
+	{
+		width: 100%;
+	}
+}
+
+
+.borderbotones
+{
+	border-radius: 15px;
+}
+
+/* Clase para darle estilos a los Iconos Sociales*/
+.social-img {
+	border-radius: 5px;
+	height: 50px;
+	filter: opacity(80%);
+}
+
+.social-img:hover
+{
+	filter: opacity(100%);
+}
